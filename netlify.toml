@@ -1,4 +1,6 @@
 [build]
-  functions = "api"
   publish = "public/"
   command = "yarn install && yarn run build"
+
+[functions]
+  directory = "api"
