@@ -1,0 +1,25 @@
+{
+  "name": "InsertKANJIUnit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify-lambda build functions/",
+    "serve": "netlify-lambda serve functions/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkyko13/InsertKANJIUnit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkyko13/InsertKANJIUnit/issues"
+  },
+  "homepage": "https://github.com/tkyko13/InsertKANJIUnit#readme",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.5"
+  }
+}
